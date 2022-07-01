@@ -35,3 +35,13 @@ function App() {
 // Render the component on the screen
 root.render(<App />);
 ```
+
+## Converting HTML to JSX
+
+1. All prop names follow **camelCasing**
+2. **Number Attributes inside curly braces** and **String Attributes inside Quotes**
+3. **Boolean true** for any attribute can be written with just **attribute's name**
+4. You specifically need to mention **boolean false inside the curly braces**
+5. **Class** attribute it written as **className**
+6. **Inline Styling** is provided **as Objects**.
+
